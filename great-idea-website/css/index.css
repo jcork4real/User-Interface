@@ -64,3 +64,166 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+div.container-1{
+  /*container content area*/
+
+  margin: 0 30% 0 30%;
+}
+/*Style nav boxes and logo to span the width of container */
+
+div a{
+  text-decoration: none;
+  color: gray;
+}
+
+div.nav-box{
+    /*content*/
+  line-height:50px;
+  white-space: no-wrap;
+}
+
+/*this div might not be a good fix try something else  */
+div{
+  display: inline-block;
+}
+
+.services-box{
+  
+  padding: 0px 50px 0px 0px;
+}
+
+.product-box{
+  
+  padding: 0px 50px 0px 0px;
+}
+
+.vision-box{
+ 
+  padding: 0px 50px 0px 0px;
+}
+
+.features-box{
+  
+  padding: 0px 50px 0px 0px;
+}
+
+.about-box{
+  
+  padding: 0px 50px 0px 0px;
+}
+
+.contact-box{
+  
+  padding: 0px 50px 0px 0px;
+
+  
+}
+
+.logo-box{
+ 
+  padding: 0px 0px 0px 20px;
+  
+}
+
+/*Section One Container w/ Text Box Image box + Get Started Link  */
+
+.section-one{
+    /*content*/
+  text-align: center;
+    /*border */
+}
+
+.section-big-text{
+  display: inline-block;
+  /*content */
+  width: 350px;
+  height: 300px;
+  
+   /*padding */
+    /*border*/
+  /*margin*/
+  }
+
+h1{
+font-size: 70px;
+}
+
+.section-big-text .get-started-box{
+  
+  color:black;  
+  font-size: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+img.header-img{
+    /*content */
+     height:280px;
+    /*padding*/
+    /*border*/
+}
+/*Section One End  */
+
+
+/*Section Two Start  */
+.section-two-container{
+  
+      /*content*/
+      /*padding*/
+      /*border*/
+        border-top:solid;
+        border-bottom:solid;
+      
+      
+}
+
+.sub-features-box{
+   /*content*/ 
+   width: 420px
+ 
+}
+
+.sub-about-box{
+      /*content*/  
+    width: 420px;
+    /*padding  */
+  padding-top: 40px;
+  padding-bottom: 40px;
+/*margin    */
+   margin-left: 30px;
+}
+
+.sub-services-box{
+/*content    */
+  width: 250px;
+/*padding    */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sub-product-box{
+/*content    */
+  width:250px;
+
+  /*margin   */
+  margin-left: 50px;
+}
+
+.sub-vision-box{
+/*content    */
+  width:250px;
+ 
+  /*margin    */
+ margin-left: 50px;
+}
+
+footer{
+  padding-top: 30px;
+}
+
+.copy{
+  margin-left: 350px;
+}
